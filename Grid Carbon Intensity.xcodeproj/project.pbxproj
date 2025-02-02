@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		290C6B2D2D4EF50900071FBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 290C6B142D4EF50800071FBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 290C6B1B2D4EF50800071FBB;
+			remoteInfo = "Grid Carbon Intensity";
+		};
+		290C6B372D4EF50900071FBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 290C6B142D4EF50800071FBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 290C6B1B2D4EF50800071FBB;
+			remoteInfo = "Grid Carbon Intensity";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		290C6B1C2D4EF50800071FBB /* Grid Carbon Intensity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grid Carbon Intensity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		290C6B2C2D4EF50900071FBB /* Grid Carbon IntensityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grid Carbon IntensityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		290C6B362D4EF50900071FBB /* Grid Carbon IntensityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grid Carbon IntensityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		290C6B1E2D4EF50800071FBB /* Grid Carbon Intensity */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Grid Carbon Intensity";
+			sourceTree = "<group>";
+		};
+		290C6B2F2D4EF50900071FBB /* Grid Carbon IntensityTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Grid Carbon IntensityTests";
+			sourceTree = "<group>";
+		};
+		290C6B392D4EF50900071FBB /* Grid Carbon IntensityUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Grid Carbon IntensityUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		290C6B192D4EF50800071FBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290C6B292D4EF50900071FBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290C6B332D4EF50900071FBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		290C6B132D4EF50800071FBB = {
+			isa = PBXGroup;
+			children = (
+				290C6B1E2D4EF50800071FBB /* Grid Carbon Intensity */,
+				290C6B2F2D4EF50900071FBB /* Grid Carbon IntensityTests */,
+				290C6B392D4EF50900071FBB /* Grid Carbon IntensityUITests */,
+				290C6B1D2D4EF50800071FBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		290C6B1D2D4EF50800071FBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				290C6B1C2D4EF50800071FBB /* Grid Carbon Intensity.app */,
+				290C6B2C2D4EF50900071FBB /* Grid Carbon IntensityTests.xctest */,
+				290C6B362D4EF50900071FBB /* Grid Carbon IntensityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		290C6B1B2D4EF50800071FBB /* Grid Carbon Intensity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290C6B402D4EF50900071FBB /* Build configuration list for PBXNativeTarget "Grid Carbon Intensity" */;
+			buildPhases = (
+				290C6B182D4EF50800071FBB /* Sources */,
+				290C6B192D4EF50800071FBB /* Frameworks */,
+				290C6B1A2D4EF50800071FBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				290C6B1E2D4EF50800071FBB /* Grid Carbon Intensity */,
+			);
+			name = "Grid Carbon Intensity";
+			packageProductDependencies = (
+			);
+			productName = "Grid Carbon Intensity";
+			productReference = 290C6B1C2D4EF50800071FBB /* Grid Carbon Intensity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		290C6B2B2D4EF50900071FBB /* Grid Carbon IntensityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290C6B432D4EF50900071FBB /* Build configuration list for PBXNativeTarget "Grid Carbon IntensityTests" */;
+			buildPhases = (
+				290C6B282D4EF50900071FBB /* Sources */,
+				290C6B292D4EF50900071FBB /* Frameworks */,
+				290C6B2A2D4EF50900071FBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				290C6B2E2D4EF50900071FBB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				290C6B2F2D4EF50900071FBB /* Grid Carbon IntensityTests */,
+			);
+			name = "Grid Carbon IntensityTests";
+			packageProductDependencies = (
+			);
+			productName = "Grid Carbon IntensityTests";
+			productReference = 290C6B2C2D4EF50900071FBB /* Grid Carbon IntensityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		290C6B352D4EF50900071FBB /* Grid Carbon IntensityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290C6B462D4EF50900071FBB /* Build configuration list for PBXNativeTarget "Grid Carbon IntensityUITests" */;
+			buildPhases = (
+				290C6B322D4EF50900071FBB /* Sources */,
+				290C6B332D4EF50900071FBB /* Frameworks */,
+				290C6B342D4EF50900071FBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				290C6B382D4EF50900071FBB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				290C6B392D4EF50900071FBB /* Grid Carbon IntensityUITests */,
+			);
+			name = "Grid Carbon IntensityUITests";
+			packageProductDependencies = (
+			);
+			productName = "Grid Carbon IntensityUITests";
+			productReference = 290C6B362D4EF50900071FBB /* Grid Carbon IntensityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		290C6B142D4EF50800071FBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					290C6B1B2D4EF50800071FBB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					290C6B2B2D4EF50900071FBB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 290C6B1B2D4EF50800071FBB;
+					};
+					290C6B352D4EF50900071FBB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 290C6B1B2D4EF50800071FBB;
+					};
+				};
+			};
+			buildConfigurationList = 290C6B172D4EF50800071FBB /* Build configuration list for PBXProject "Grid Carbon Intensity" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 290C6B132D4EF50800071FBB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 290C6B1D2D4EF50800071FBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				290C6B1B2D4EF50800071FBB /* Grid Carbon Intensity */,
+				290C6B2B2D4EF50900071FBB /* Grid Carbon IntensityTests */,
+				290C6B352D4EF50900071FBB /* Grid Carbon IntensityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		290C6B1A2D4EF50800071FBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290C6B2A2D4EF50900071FBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290C6B342D4EF50900071FBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		290C6B182D4EF50800071FBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290C6B282D4EF50900071FBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290C6B322D4EF50900071FBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		290C6B2E2D4EF50900071FBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 290C6B1B2D4EF50800071FBB /* Grid Carbon Intensity */;
+			targetProxy = 290C6B2D2D4EF50900071FBB /* PBXContainerItemProxy */;
+		};
+		290C6B382D4EF50900071FBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 290C6B1B2D4EF50800071FBB /* Grid Carbon Intensity */;
+			targetProxy = 290C6B372D4EF50900071FBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		290C6B3E2D4EF50900071FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		290C6B3F2D4EF50900071FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		290C6B412D4EF50900071FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Grid Carbon Intensity/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gci.Grid-Carbon-Intensity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		290C6B422D4EF50900071FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Grid Carbon Intensity/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gci.Grid-Carbon-Intensity";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		290C6B442D4EF50900071FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gci.Grid-Carbon-IntensityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grid Carbon Intensity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Grid Carbon Intensity";
+			};
+			name = Debug;
+		};
+		290C6B452D4EF50900071FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gci.Grid-Carbon-IntensityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grid Carbon Intensity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Grid Carbon Intensity";
+			};
+			name = Release;
+		};
+		290C6B472D4EF50900071FBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gci.Grid-Carbon-IntensityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Grid Carbon Intensity";
+			};
+			name = Debug;
+		};
+		290C6B482D4EF50900071FBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gci.Grid-Carbon-IntensityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Grid Carbon Intensity";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		290C6B172D4EF50800071FBB /* Build configuration list for PBXProject "Grid Carbon Intensity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290C6B3E2D4EF50900071FBB /* Debug */,
+				290C6B3F2D4EF50900071FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290C6B402D4EF50900071FBB /* Build configuration list for PBXNativeTarget "Grid Carbon Intensity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290C6B412D4EF50900071FBB /* Debug */,
+				290C6B422D4EF50900071FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290C6B432D4EF50900071FBB /* Build configuration list for PBXNativeTarget "Grid Carbon IntensityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290C6B442D4EF50900071FBB /* Debug */,
+				290C6B452D4EF50900071FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290C6B462D4EF50900071FBB /* Build configuration list for PBXNativeTarget "Grid Carbon IntensityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290C6B472D4EF50900071FBB /* Debug */,
+				290C6B482D4EF50900071FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 290C6B142D4EF50800071FBB /* Project object */;
+}
