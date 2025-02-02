@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		29DD3EED2D4F57DC0057FCA9 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DD3EE32D4F57DB0057FCA9 /* Shared.framework */; };
+		29DD3EF82D4F57DC0057FCA9 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29DD3EE32D4F57DB0057FCA9 /* Shared.framework */; };
+		29DD3EF92D4F57DC0057FCA9 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29DD3EE32D4F57DB0057FCA9 /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		290C6B2D2D4EF50900071FBB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,13 +27,60 @@
 			remoteGlobalIDString = 290C6B1B2D4EF50800071FBB;
 			remoteInfo = "Grid Carbon Intensity";
 		};
+		29DD3EEE2D4F57DC0057FCA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 290C6B142D4EF50800071FBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29DD3EE22D4F57DB0057FCA9;
+			remoteInfo = Shared;
+		};
+		29DD3EF02D4F57DC0057FCA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 290C6B142D4EF50800071FBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 290C6B1B2D4EF50800071FBB;
+			remoteInfo = "Grid Carbon Intensity";
+		};
+		29DD3EF62D4F57DC0057FCA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 290C6B142D4EF50800071FBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29DD3EE22D4F57DB0057FCA9;
+			remoteInfo = Shared;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		29A7835D2D4F571200E0FF28 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				29DD3EF92D4F57DC0057FCA9 /* Shared.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		290C6B1C2D4EF50800071FBB /* Grid Carbon Intensity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grid Carbon Intensity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		290C6B2C2D4EF50900071FBB /* Grid Carbon IntensityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grid Carbon IntensityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		290C6B362D4EF50900071FBB /* Grid Carbon IntensityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grid Carbon IntensityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DD3EE32D4F57DB0057FCA9 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29DD3EEC2D4F57DC0057FCA9 /* SharedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SharedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		29DD3EFA2D4F57DC0057FCA9 /* Exceptions for "Shared" folder in "Shared" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				Shared.h,
+			);
+			target = 29DD3EE22D4F57DB0057FCA9 /* Shared */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		290C6B1E2D4EF50800071FBB /* Grid Carbon Intensity */ = {
@@ -45,6 +98,19 @@
 			path = "Grid Carbon IntensityUITests";
 			sourceTree = "<group>";
 		};
+		29DD3EE42D4F57DB0057FCA9 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				29DD3EFA2D4F57DC0057FCA9 /* Exceptions for "Shared" folder in "Shared" target */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		29DD3EF22D4F57DC0057FCA9 /* SharedTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SharedTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29DD3EF82D4F57DC0057FCA9 /* Shared.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +136,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		29DD3EE02D4F57DB0057FCA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DD3EE92D4F57DC0057FCA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DD3EED2D4F57DC0057FCA9 /* Shared.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +160,8 @@
 				290C6B1E2D4EF50800071FBB /* Grid Carbon Intensity */,
 				290C6B2F2D4EF50900071FBB /* Grid Carbon IntensityTests */,
 				290C6B392D4EF50900071FBB /* Grid Carbon IntensityUITests */,
+				29DD3EE42D4F57DB0057FCA9 /* Shared */,
+				29DD3EF22D4F57DC0057FCA9 /* SharedTests */,
 				290C6B1D2D4EF50800071FBB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,11 +172,23 @@
 				290C6B1C2D4EF50800071FBB /* Grid Carbon Intensity.app */,
 				290C6B2C2D4EF50900071FBB /* Grid Carbon IntensityTests.xctest */,
 				290C6B362D4EF50900071FBB /* Grid Carbon IntensityUITests.xctest */,
+				29DD3EE32D4F57DB0057FCA9 /* Shared.framework */,
+				29DD3EEC2D4F57DC0057FCA9 /* SharedTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		29DD3EDE2D4F57DB0057FCA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		290C6B1B2D4EF50800071FBB /* Grid Carbon Intensity */ = {
@@ -102,13 +198,16 @@
 				290C6B182D4EF50800071FBB /* Sources */,
 				290C6B192D4EF50800071FBB /* Frameworks */,
 				290C6B1A2D4EF50800071FBB /* Resources */,
+				29A7835D2D4F571200E0FF28 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				29DD3EF72D4F57DC0057FCA9 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				290C6B1E2D4EF50800071FBB /* Grid Carbon Intensity */,
+				29DD3EE42D4F57DB0057FCA9 /* Shared */,
 			);
 			name = "Grid Carbon Intensity";
 			packageProductDependencies = (
@@ -163,6 +262,53 @@
 			productReference = 290C6B362D4EF50900071FBB /* Grid Carbon IntensityUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		29DD3EE22D4F57DB0057FCA9 /* Shared */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29DD3EFB2D4F57DC0057FCA9 /* Build configuration list for PBXNativeTarget "Shared" */;
+			buildPhases = (
+				29DD3EDE2D4F57DB0057FCA9 /* Headers */,
+				29DD3EDF2D4F57DB0057FCA9 /* Sources */,
+				29DD3EE02D4F57DB0057FCA9 /* Frameworks */,
+				29DD3EE12D4F57DB0057FCA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				29DD3EE42D4F57DB0057FCA9 /* Shared */,
+			);
+			name = Shared;
+			packageProductDependencies = (
+			);
+			productName = Shared;
+			productReference = 29DD3EE32D4F57DB0057FCA9 /* Shared.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		29DD3EEB2D4F57DC0057FCA9 /* SharedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29DD3EFE2D4F57DC0057FCA9 /* Build configuration list for PBXNativeTarget "SharedTests" */;
+			buildPhases = (
+				29DD3EE82D4F57DC0057FCA9 /* Sources */,
+				29DD3EE92D4F57DC0057FCA9 /* Frameworks */,
+				29DD3EEA2D4F57DC0057FCA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29DD3EEF2D4F57DC0057FCA9 /* PBXTargetDependency */,
+				29DD3EF12D4F57DC0057FCA9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				29DD3EF22D4F57DC0057FCA9 /* SharedTests */,
+			);
+			name = SharedTests;
+			packageProductDependencies = (
+			);
+			productName = SharedTests;
+			productReference = 29DD3EEC2D4F57DC0057FCA9 /* SharedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -181,6 +327,13 @@
 						TestTargetID = 290C6B1B2D4EF50800071FBB;
 					};
 					290C6B352D4EF50900071FBB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 290C6B1B2D4EF50800071FBB;
+					};
+					29DD3EE22D4F57DB0057FCA9 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					29DD3EEB2D4F57DC0057FCA9 = {
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = 290C6B1B2D4EF50800071FBB;
 					};
@@ -203,6 +356,8 @@
 				290C6B1B2D4EF50800071FBB /* Grid Carbon Intensity */,
 				290C6B2B2D4EF50900071FBB /* Grid Carbon IntensityTests */,
 				290C6B352D4EF50900071FBB /* Grid Carbon IntensityUITests */,
+				29DD3EE22D4F57DB0057FCA9 /* Shared */,
+				29DD3EEB2D4F57DC0057FCA9 /* SharedTests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +378,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		290C6B342D4EF50900071FBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DD3EE12D4F57DB0057FCA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DD3EEA2D4F57DC0057FCA9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +422,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		29DD3EDF2D4F57DB0057FCA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29DD3EE82D4F57DC0057FCA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +448,21 @@
 			isa = PBXTargetDependency;
 			target = 290C6B1B2D4EF50800071FBB /* Grid Carbon Intensity */;
 			targetProxy = 290C6B372D4EF50900071FBB /* PBXContainerItemProxy */;
+		};
+		29DD3EEF2D4F57DC0057FCA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29DD3EE22D4F57DB0057FCA9 /* Shared */;
+			targetProxy = 29DD3EEE2D4F57DC0057FCA9 /* PBXContainerItemProxy */;
+		};
+		29DD3EF12D4F57DC0057FCA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 290C6B1B2D4EF50800071FBB /* Grid Carbon Intensity */;
+			targetProxy = 29DD3EF02D4F57DC0057FCA9 /* PBXContainerItemProxy */;
+		};
+		29DD3EF72D4F57DC0057FCA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29DD3EE22D4F57DB0057FCA9 /* Shared */;
+			targetProxy = 29DD3EF62D4F57DC0057FCA9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -512,6 +710,108 @@
 			};
 			name = Release;
 		};
+		29DD3EFC2D4F57DC0057FCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = gci.Shared;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		29DD3EFD2D4F57DC0057FCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = gci.Shared;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29DD3EFF2D4F57DC0057FCA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84P5GX2CH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gci.SharedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grid Carbon Intensity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Grid Carbon Intensity";
+			};
+			name = Debug;
+		};
+		29DD3F002D4F57DC0057FCA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 84P5GX2CH7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = gci.SharedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grid Carbon Intensity.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Grid Carbon Intensity";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -547,6 +847,24 @@
 			buildConfigurations = (
 				290C6B472D4EF50900071FBB /* Debug */,
 				290C6B482D4EF50900071FBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29DD3EFB2D4F57DC0057FCA9 /* Build configuration list for PBXNativeTarget "Shared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DD3EFC2D4F57DC0057FCA9 /* Debug */,
+				29DD3EFD2D4F57DC0057FCA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29DD3EFE2D4F57DC0057FCA9 /* Build configuration list for PBXNativeTarget "SharedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DD3EFF2D4F57DC0057FCA9 /* Debug */,
+				29DD3F002D4F57DC0057FCA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
